@@ -14,7 +14,7 @@ import logging
 
 # Ao iniciar o Google Chrome, o exemplar iniciado será uma página com o plugin
 chrome_options = ChromeOptions()
-chrome_options.add_extension('C:\\Users\\assinatura.d2\\Desktop\\plugincertisign.crx')
+chrome_options.add_extension(f'{caminho}plugincertisign.crx')
 # logando no email, via IMAP
 login = login()
 senha = senha()
